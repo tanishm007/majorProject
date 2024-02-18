@@ -1,0 +1,14 @@
+.top-banner {
+    background-color: #3498db; /* Blue color */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .banner-text {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+  

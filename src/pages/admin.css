@@ -1,0 +1,61 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.uploadBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.uploadBox img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.allimage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner {
+    text-align: left;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}

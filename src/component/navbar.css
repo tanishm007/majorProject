@@ -1,0 +1,9 @@
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    /* Add any other styles you want for the navbar container */
+}
