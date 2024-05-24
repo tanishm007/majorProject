@@ -1,61 +1,99 @@
+/* cardGenerator.css */
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    justify-content: space-around;
     background-color: #333;
+    padding: 10px;
+}
+
+.navButton {
     color: white;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.navButton:hover {
+    background-color: #555;
 }
 
 .imageContainer {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-.form-group {
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.radio-group {
-    display: flex;
-    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
 }
 
 .uploadBox {
     display: flex;
-    align-items: center;
     justify-content: center;
-    border: 1px dashed #ccc;
+    align-items: center;
+    border: 2px dashed #ccc;
     padding: 20px;
-    margin-bottom: 10px;
-}
-
-.uploadBox img {
-    max-width: 100%;
-    max-height: 200px;
-}
-
-.submit-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
     cursor: pointer;
 }
 
-.allimage {
+.form-group {
+    margin-bottom: 15px;
+}
+
+#uploadImage {
+    display: none;
+}
+
+.id-card {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.college-logo{
+
+    height: 10px;
+    width: 10px;
+}
+
+.id-card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
 }
 
-.banner {
-    text-align: left;
-    background-color: #007bff;
-    color: white;
+.id-card-header img.college-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.id-card-body {
     padding: 20px;
+}
+
+.id-card-image img {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.download-button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
 }

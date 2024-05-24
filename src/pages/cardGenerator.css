@@ -1,18 +1,18 @@
 /* cardGenerator.css */
 
-.App {
+.App, .navbar, .imageContainer, .banner {
     text-align: center;
     font-family: Arial, sans-serif;
   }
   
-  .form {
-    margin: 20px;
+  .form-group, .radio-group {
+    margin: 10px 0;
   }
   
-  .form input {
-    margin: 10px;
-    padding: 10px;
-    font-size: 16px;
+  .uploadBox {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    cursor: pointer;
   }
   
   .id-card {
@@ -44,5 +44,19 @@
   
   .id-card-details p {
     margin: 5px 0;
+  }
+  
+  .navButton {
+    margin: 10px;
+    padding: 10px 20px;
+  }
+  
+  .banner {
+    margin: 20px 0;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    margin: 10px 0;
   }
   
