@@ -12,6 +12,7 @@ import TopBanner from './component/head';
 import Admin from './pages/admin';
 import Login from './pages/login';
 import Carda from './pages/card'
+import CardGenerate from './pages/cardGenerate';
 
 
 
@@ -28,6 +29,7 @@ function App() {
       <Routes>
       <Route path="/student-login" element={<Header />} />
         <Route path="/admin" element={<Login />} />
+        <Route path="/card-generate" element={<CardGenerate />} />
         <Route path="/adminsuccess" element={<Admin />} />
         <Route path="/student" element={<Carda />} />
        
